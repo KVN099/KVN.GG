@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Console And Gaming Peripherals</title>
-    <link rel="stylesheet" href="./css/consoles.css">
+    <link rel="stylesheet" href="css/consoles.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger-menu" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
     <div class="nav-container">
 
-        <img src="./images/kvn.gglogo.png" alt="KVN.GG Logo" class="logo">
+        <img src="images/kvn.gglogo.png" alt="KVN.GG Logo" class="logo">
 
         <nav>
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="upcominggames.html">Upcoming Games</a></li>
                 <li>
@@ -38,7 +45,9 @@
     <div class="title-bar">
         <h1>Console And Gaming Peripherals</h1>
         <button class="cart-icon-button">
+            <a href="cart.html">
                 <i class="fas fa-shopping-cart"></i> 
+                <span class="badge">0</span> 
             </a>
         </button>
     </div>
@@ -46,105 +55,47 @@
     <section class="product-section">
         <div class="product-grid">
             <div class="product-card">
-                <img src="./images/lap1.png" alt="Product 1" class="product-image">
+                <img src="images/lap1.png" alt="Product 1" class="product-image">
                 <h2 class="product-title">ASUS ROG STRIX G16 2024 G614JIR I9 14TH GEN RTX 4070</h2>
                 <p class="product-price">LKR 724,000</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="./images/lap2.png" alt="Product 2" class="product-image">
+                <img src="images/lap2.png" alt="Product 2" class="product-image">
                 <h2 class="product-title">MSI Crosshair 16 HX D14VGKG i7 14TH GEN RTX<br> 4070</h2>
                 <p class="product-price">LKR 635,000</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="./images/lap3.png" alt="Product 3" class="product-image">
-                <h2 class="product-title">LENOVO Legion SLIM 5 16AHP9 Ryzen 7 8000 Series RTX 4050</h2>
-                <p class="product-price">LKR 444,000</p>
+                <img src="images/chair2.png" alt="Product 4" class="product-image">
+                <h2 class="product-title">Asus SL301C <br> ROG Chariot <br> X</h2>
+                <p class="product-price">LKR 225,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div> <div class="product-card">
+                <img src="images/chair3.png" alt="Product 4" class="product-image">
+                <h2 class="product-title">Asus SL301C <br> ROG Chariot <br> X Core</h2>
+                <p class="product-price">LKR 165,000</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="./images/lap4.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">LENOVO IDEAPAD SLIM 3 15IAH8 i5 12TH<br> GEN H</h2>
-                <p class="product-price">LKR 167,000</p>
+                <img src="images/chair4.png" alt="Product 4" class="product-image">
+                <h2 class="product-title">MSI MAG CH120 <br> BLACK & RED <br>GAMING CHAIR</h2>
+                <p class="product-price">LKR 85,000</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="./images/lap5.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">Lenovo LOQ 15IRX9 i7 13th GEN HX + RTX 4050 6GB<br> 4050 6GB</h2>
-                <p class="product-price">LKR 394,000</p>
+                <img src="images/chair5.png" alt="Product 4" class="product-image">
+                <h2 class="product-title"> MSI MAG <br> CH120 X <br>GAMING CHAIR</h2>
+                <p class="product-price">LKR 86,000</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
-            <div class="product-card">
-                <img src="./images/vga1.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">ASUS DUAL GEFORCE RTX 4060 TI<br> 8GB GDDR6</h2>
-                <p class="product-price">LKR 175,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/vga2.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">ASUS STRIX GAMING GeForce RTX 4090<br> 24GB GDDR6X</h2>
-                <p class="product-price">LKR 999,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/vga3.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">MSI GEFORCE RTX 4070 TI SUPER 16G GAMING<br> X SLIM</h2>
-                <p class="product-price">LKR 529,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/vga4.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">ZOTAC GEFORCE RTX 4070 SUPER TRINITY BLACK EDITION 12GB GDDR6X</h2>
-                <p class="product-price">LKR 459,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/vga5.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">ASUS DUAL <br> GTX 1650 <br>4GB GDDR6</h2>
-                <p class="product-price">LKR 66,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            
-            <div class="product-card">
-                <img src="./images/case1.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">Gamdias AURA GC1 ELITE Mesh RGB Mid-tower<br> Case</h2>
-                <p class="product-price">LKR 14,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/case2.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">NZXT H9 FLOW BLACK/WHITE GAMING <br>CASING</h2>
-                <p class="product-price">LKR 46,500</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/case3.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">NZXT H7 FLOW RGB WHITE/BLACK GAMING <br>CASING</h2>
-                <p class="product-price">LKR 41,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            
-            <div class="product-card">
-                <img src="./images/console1.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">Playstation 5 PRO 2TB <br>GAMING CONSOLE <br> CFI 7021</h2>
-                <p class="product-price">LKR 275,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./images/console4.png" alt="Product 4" class="product-image">
-                <h2 class="product-title">MSI Claw - A1M 14TH GEN ARC Graphics Handheld Console</h2>
-                <p class="product-price">LKR 289,000</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            
         </div>
         
     </section>
 
     <footer class="footer">
         <div class="footer-image">
-            <img src="./images/kvn.gglogo2.png" alt="Footer Image">
+            <img src="images/kvn.gglogo2.png" alt="Footer Image">
         </div>
         <div class="footer-content">
             <p>&copy; 2024 <strong>KVN.GG</strong>. All rights reserved.</p>
@@ -161,6 +112,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/cart.js"></script> 
 </body>
 </html>
